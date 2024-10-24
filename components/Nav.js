@@ -15,14 +15,14 @@ const Nav = () => {
 
   return (
     <>
-      <div className="fixed top-0 pt-[2.5vw] sm:pt-3 z-[1000] text-[2.9vw] 4xs:text-[2.9vw] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[18.5px] flex justify-center items-center w-screen select-none">
-        <div className="flex justify-center items-center bg-white/60 backdrop-blur-md rounded m-0 mr-[1.8vw] sm:mr-3 w-[18.5vw] h-[7.9vw] sm:w-[6rem] sm:h-[2.35rem] md:w-[6.5rem] md:h-[2.4rem] lg:w-[7.5rem] lg:h-[2.6rem] select-none ">
+      <div className="fixed top-0 pt-[2.5vw] sm:pt-3 z-[1000] text-[3vw] 4xs:text-[2.9vw] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[18.5px] flex justify-center items-center w-screen select-none">
+        <div className="flex justify-center items-center bg-white/60 backdrop-blur-md rounded m-0 mr-[1.8vw] sm:mr-3 w-[20vw] h-[8.2vw] sm:w-[6rem] sm:h-[2.35rem] md:w-[6.5rem] md:h-[2.4rem] lg:w-[7.5rem] lg:h-[2.6rem] select-none ">
           <Link href="/" passHref scroll={false}>
             <a className="thumbcursor">
               <img
                 src="/logoShort.png"
                 alt="logo"
-                className="w-[13.5vw] sm:w-[70px] md:w-[76px] lg:w-[87.5px] xl:w-[93px] h-auto"
+                className="w-[14.3vw] sm:w-[70px] md:w-[76px] lg:w-[87.5px] xl:w-[93px] h-auto"
               />
             </a>
           </Link>
@@ -46,13 +46,13 @@ const Nav = () => {
                 setAngle("-1.2");
               }}
             >
-              <span className="p-1.5 pr-[0vw] pl-[3vw] sm:pr-3 sm:pl-3 ">
+              <span className="p-1.5 pr-[0vw] pl-[4vw] sm:pr-3 sm:pl-3 ">
                 Work
               </span>
             </a>
           </Link>
 
-          <Link href="/realgoodfriends" passHref scroll={false}>
+          {/* <Link href="/realgoodfriends" passHref scroll={false}>
             <a
               className={`inline-block p-[0.3vw] hover:rotate-[2deg] sm:p-0 sm:pl-0.5 sm:pr-1  thumbcursor   hover:opacity-100 duration-[0.2s] 
             ${
@@ -68,7 +68,7 @@ const Nav = () => {
                 Friends
               </span>
             </a>
-          </Link>
+          </Link> */}
 
           <Link href="/shop" passHref scroll={false}>
             <a
@@ -82,7 +82,7 @@ const Nav = () => {
                 setAngle("-0.6");
               }}
             >
-              <span className={`p-1.5  pr-[0vw] pl-[3vw] sm:pr-3 sm:pl-3  `}>
+              <span className={`p-1.5  pr-[0vw] pl-[3.5vw] sm:pr-3 sm:pl-3  `}>
                 Shop
               </span>
             </a>
@@ -98,7 +98,7 @@ const Nav = () => {
               setAngle("0.6");
             }}
           >
-            <span className={`p-1.5 pr-[0vw] pl-[3vw] sm:pr-3 sm:pl-3  `}>
+            <span className={`p-1.5 pr-[0vw] pl-[3.5vw] sm:pr-3 sm:pl-3  `}>
               Instagram
             </span>
           </a>
@@ -115,7 +115,7 @@ const Nav = () => {
                   : "opacity-50"
               } `}
             >
-              <span className={`p-1.5  pr-[3vw] pl-[3vw] sm:pr-3 sm:pl-3  `}>
+              <span className={`p-1.5  pr-[4vw] pl-[3.5vw] sm:pr-3 sm:pl-3  `}>
                 Contact
               </span>
             </a>
